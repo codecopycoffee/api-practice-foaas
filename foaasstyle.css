@@ -1,0 +1,66 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+	background-color: #222;
+	color: #fffafa;
+	font-family: monospace;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.5em;
+	width: 100%;
+}
+
+select {
+	font-family: monospace;
+	font-size: 1.2em;
+	width: 50%;
+}
+
+input, #resetBtn {
+	margin: 5px;
+	font-family: monospace;
+	font-size: 1.2em;
+	border-radius: 5px;
+}
+
+#resetBtn {
+	font-weight: bold;
+	display: inline-block;
+}
+
+.btn, #resetBtn {
+	transition: box-shadow .2s ease-in-out;
+}
+
+.btn:hover, #resetBtn:hover {
+	box-shadow: 0 0 5px 1px #fffafa;
+}
+
+label {
+	font-size: 1.2em;
+}
+
+a {
+	display: none;
+}
+
+.hero-unit {
+	color: DeepPink;
+}
+
+.hero-unit p {
+	font-size: 1.5em;
+}
